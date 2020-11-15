@@ -1,0 +1,344 @@
+.main{
+    position: relative;
+    height: 700px;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+*{
+    margin: 0;
+}
+.calc{
+    position: absolute;   
+    height: 530px;
+    width: 35%;
+    border-radius: 8px;
+    box-shadow: black;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    margin-top: 50px;
+    margin-left: 30%;
+}
+.screen{
+    position: absolute;
+    height: 150px;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 23px;
+    border-radius: 4px;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);  
+}
+
+.button{
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 21px;
+}
+
+button#one{
+    position: absolute ;
+    margin-top: 260px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 270px;
+    
+}
+
+button#two{
+    position: absolute ;
+    margin-top: 170px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 0px;
+    
+}
+
+button#three{
+    position: absolute ;
+    margin-top: 170px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 90px;
+    
+}
+
+button#four{
+    position: absolute ;
+    margin-top: 170px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 180px;
+    
+}
+
+button#five{
+    position: absolute ;
+    margin-top: 170px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 270px;
+    
+}
+
+button#six{
+    position: absolute ;
+    margin-top: 90px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 0px;
+    
+}
+
+button#seven{
+    position: absolute ;
+    margin-top: 90px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 90px;
+    
+}
+
+button#eight{
+    position: absolute ;
+    margin-top: 90px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 180px;
+    
+}
+
+button#nine{
+    position: absolute ;
+    margin-top: 90px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 270px;
+    
+}
+
+button#zero{
+    position: absolute ;
+    margin-top:260px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 180px;
+    
+}
+
+button#dot{
+    position: absolute ;
+    margin-top: 170px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 360px;
+    
+}
+
+button#clear{
+    position: absolute ;
+    margin-top: 10px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    
+}
+
+button#delete{
+    position: absolute ;
+    margin-top: 10px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 90px;
+    
+}
+
+button#divide{
+    position: absolute ;
+    margin-top: 10px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 180px;
+    
+}
+
+button#multiply{
+    position: absolute ;
+    margin-top: 10px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 270px;
+    
+}
+
+button#subtract{
+    position: absolute ;
+    margin-top: 10px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 360px;
+    
+}
+
+button#add{
+    position: absolute ;
+    margin-top: 90px ;
+    background-color: transparent;
+    color: black;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 360px;
+    
+}
+
+button#equal{
+    position: absolute ;
+    margin-top: 260px ;
+    background-color: red;
+    color: white;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 60px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 4px;
+    left: 360px;
+    
+}
+
+input#input:focus{
+    background: transparent;
+    outline:transparent;
+
+    
+}
+
+input#input{
+    background: transparent;
+    outline: transparent;
+    border: none;
+    height: 35px;
+    width: 78%;
+    margin-top: 110px;
+    float: right;
+    font-size: x-large;
+    
+}
+
+
+
+
+
